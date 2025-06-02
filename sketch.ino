@@ -32,7 +32,6 @@
 
 const int rs = 22, en = 27, d4 = 23, d5 = 25, d6 = 24, d7 = 26;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
-// Microphone pins - adjust these according to your Arduino connections
 const int micA = A1;  // Front microphone
 const int micB = A2;  // Right microphone
 const int micC = A0;  // Left microphone
